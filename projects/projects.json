@@ -1,0 +1,64 @@
+[
+
+  {
+    "name": "Pitch For Profit (MERN Stack)",
+    "desc": "Pitch for Profit is a web-based platform designed to connect entrepreneurs with potential investors. It enables startups to pitch their ideas.",
+    "image": "pitch-for-profit",
+    "category": "mern",
+    "links": {
+      "view": "https://pitch-for-profit-frontend-id57.vercel.app/",
+      "code": "https://github.com/pawan0108/Pitch-For-Profit.git"
+    }
+  },
+  {
+    "name": "Spotify (HTML-CSS)",
+    "desc": "A responsive Spotify Clone built using HTML, CSS. It mimics core UI features of Spotify like music cards",
+    "image": "spotify",
+    "category": "ui-clone",
+    "links": {
+      "view": "https://spotify-clone-alpha-henna.vercel.app/",
+      "code": "https://github.com/pawan0108/Spotify-clone.git"
+    }
+  },
+  {
+    "name": "LimeJungle (HTML-CSS)",
+    "desc": "LimeJungle is a visually appealing website built using HTML and CSS. Modern layout design, and smooth UI styling.",
+    "image": "limejungle",
+    "category": "ui",
+    "links": {
+      "view": "https://lime-jungle.vercel.app/",
+      "code": "https://github.com/pawan0108/LimeJungle.git"
+    }
+  },
+  {
+    "name": "News Latter 2 (HTML-CSS)",
+    "desc": "NewsLatter2 is a clean and responsive newsletter page built using HTML and CSS, suitable for integration into any website footer or landing page.",
+    "image": "newslatter2",
+    "category": "ui",
+    "links": {
+      "view": "https://news-latter2.vercel.app/",
+      "code": "https://github.com/pawan0108/NewsLatter2.git"
+    }
+  },
+  {
+    "name": "News Latter 1 (HTML-CSS)",
+    "desc": "NewsLatter1 is a stylish newsletter designed using HTML and CSS. perfect for use in email campaigns or landing pages.",
+    "image": "newslatter1",
+    "category": "ui",
+    "links": {
+      "view": "https://news-latter1.vercel.app/",
+      "code": "https://github.com/pawan0108/NewsLatter1.git"
+    }
+  },
+  {
+    "name": "Google Com. UI (HTML-CSS)",
+    "desc": "Google-Components is a simple project that recreates core UI elements inspired by Google's design using HTML and CSS. It includes search bars.",
+    "image": "google-component",
+    "category": "ui",
+    "links": {
+      "view": "https://google-components.vercel.app/",
+      "code": "https://github.com/pawan0108/Google-Components.git"
+    }
+  }
+  
+]
