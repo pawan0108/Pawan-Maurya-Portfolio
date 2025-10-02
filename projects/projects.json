@@ -10,6 +10,26 @@
       "code": "https://github.com/pawan0108/Pitch-For-Profit.git"
     }
   },
+    {
+    "name": "Weather App",
+    "desc": "A clean and simple single-page react base application to display the weather for any city.",
+    "image": "weather-app",
+    "category": "react",
+    "links": {
+      "view": "https://weather-app-lake-mu-19.vercel.app/",
+      "code": "https://github.com/pawan0108/Weather-App.git"
+    }
+  },
+      {
+    "name": "Movie Library",
+    "desc": "An React base app to browse movies and manage a personal 'Watchlist'.",
+    "image": "movie-library",
+    "category": "react",
+    "links": {
+      "view": "https://movie-library-roan-five.vercel.app/",
+      "code": "https://github.com/pawan0108/Movie-Library.git"
+    }
+  },
   {
     "name": "Spotify (HTML-CSS)",
     "desc": "A responsive Spotify Clone built using HTML, CSS. It mimics core UI features of Spotify like music cards",
