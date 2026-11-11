@@ -1,0 +1,124 @@
+[
+  {
+    "id": "om-sanskaram",
+    "name": "Om Sanskaram",
+    "category": "professional",
+    "status": "in-progress",
+    "featured": true,
+    "role": "Full Stack Development",
+    "summary": "An ongoing platform built from scratch with separate daily subscription and store purchase journeys, APIs, administration, payments, and wallet funding.",
+    "contributions": [
+      "Building the platform from scratch across frontend and backend.",
+      "Implemented daily subscription and separate store buying flows.",
+      "Developed APIs, administration features, and banner management.",
+      "Integrated payment gateway and wallet add-money functionality."
+    ],
+    "ongoingWork": "Developing separate journeys for five puja offerings; this scope is still in progress.",
+    "technologies": [],
+    "links": {
+      "view": "https://omsanskaram.com/",
+      "code": null
+    },
+    "evidence": {
+      "ownership": "user-reported",
+      "publicReview": "Homepage returned HTTP 200 in Chrome; real 1280?800 preview captured and visually inspected on 11 November 2026.",
+      "reviewedOn": "2026-11-11",
+      "limitations": "Public homepage only. No authenticated admin, subscriptions, transactions, wallet, or payment tests. Project-specific stack remains unspecified."
+    },
+    "engagement": "employment",
+    "employerId": "codetrex",
+    "preview": {
+      "src": "/src/assets/images/projects/om-sanskaram-1280.webp",
+      "alt": "Om Sanskaram public homepage preview",
+      "width": 1280,
+      "height": 800,
+      "caption": "Public homepage · Product development ongoing",
+      "smallSrc": "/src/assets/images/projects/om-sanskaram-640.webp",
+      "mediumSrc": "/src/assets/images/projects/om-sanskaram-800.webp"
+    },
+    "presentation": {
+      "context": "A platform bringing daily puja essentials, subscriptions, store purchases, and devotional services into distinct user journeys.",
+      "focus": "Subscriptions, store purchases, administration, payments, and wallet funding.",
+      "linkLabel": "Visit project website",
+      "previewCaption": "Product scope ? Ongoing development"
+    }
+  },
+  {
+    "id": "codetrex-redesign",
+    "name": "Codetrex Website Redesign",
+    "category": "professional",
+    "status": "in-progress",
+    "featured": true,
+    "role": "Website Redesign",
+    "summary": "An ongoing redesign of Codetrex's company website and service presentation.",
+    "contributions": ["Redesigning the company's public website."],
+    "ongoingWork": "Redesign in progress; the live page is not confirmed to represent the final redesign.",
+    "technologies": [],
+    "links": {
+      "view": "https://codetrex.in/",
+      "code": null
+    },
+    "evidence": {
+      "ownership": "user-reported redesign contribution",
+      "publicReview": "Homepage returned HTTP 200 in Chrome; real 1280?800 preview captured and visually inspected on 11 November 2026.",
+      "reviewedOn": "2026-11-11",
+      "limitations": "Public homepage only; current site is not established as the final redesign. No source inspection or personal performance/business metrics."
+    },
+    "engagement": "employment",
+    "employerId": "codetrex",
+    "preview": {
+      "src": "/src/assets/images/projects/codetrex-redesign-1280.webp",
+      "alt": "Codetrex Website Redesign public homepage preview",
+      "width": 1280,
+      "height": 800,
+      "caption": "Current public website · Redesign in progress",
+      "smallSrc": "/src/assets/images/projects/codetrex-redesign-640.webp",
+      "mediumSrc": "/src/assets/images/projects/codetrex-redesign-800.webp"
+    },
+    "presentation": {
+      "context": "An ongoing redesign of the company website and the way its services and solutions are presented.",
+      "focus": "Company website redesign and service presentation.",
+      "linkLabel": "View company website",
+      "previewCaption": "Company website ? Redesign in progress"
+    }
+  },
+  {
+    "id": "yashvi-infosys",
+    "name": "Yashvi Infosys",
+    "category": "professional",
+    "status": "delivered-user-reported",
+    "featured": true,
+    "role": "Website Development and Deployment",
+    "summary": "An IT services website developed and deployed by Pawan, presenting the business's services and contact information.",
+    "contributions": ["Built the website.", "Handled deployment and project delivery."],
+    "ongoingWork": null,
+    "technologies": [],
+    "links": {
+      "view": "https://yashviinfosys.in/",
+      "code": null
+    },
+    "evidence": {
+      "ownership": "user-confirmed personal freelance client; independent of Codetrex employment",
+      "publicReview": "Homepage returned HTTP 200 in Chrome; real 1280?800 preview captured and visually inspected on 11 November 2026.",
+      "reviewedOn": "2026-11-11",
+      "limitations": "Public homepage only; no form submissions, source or hosting inspection. Ownership/deployment user-confirmed; project stack unspecified."
+    },
+    "engagement": "freelance",
+    "employerId": null,
+    "preview": {
+      "src": "/src/assets/images/projects/yashvi-infosys-1280.webp",
+      "alt": "Yashvi Infosys public homepage preview",
+      "width": 1280,
+      "height": 800,
+      "caption": "Public website · Independent client project",
+      "smallSrc": "/src/assets/images/projects/yashvi-infosys-640.webp",
+      "mediumSrc": "/src/assets/images/projects/yashvi-infosys-800.webp"
+    },
+    "presentation": {
+      "context": "A public website for an IT services business, delivered as an independent personal client project.",
+      "focus": "Website development through deployment for a personal client.",
+      "linkLabel": "Visit client website",
+      "previewCaption": "Independent client ? Development & deployment"
+    }
+  }
+]

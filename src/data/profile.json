@@ -1,0 +1,104 @@
+{
+  "name": "Pawan Maurya",
+  "title": "Full Stack Developer",
+  "email": "pawanmaurya8931@gmail.com",
+  "phone": "+91 8931982906",
+  "location": "Sector 66, Noida, Uttar Pradesh, India - 201301",
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/pawan-maurya-9417b1147/",
+    "github": "https://github.com/pawan0108",
+    "instagram": "https://www.instagram.com/_pawan_maurya_01/?hl=en"
+  },
+  "resumeUrl": "https://drive.google.com/file/d/1kYVPkmp2HQ5yM6jZjZ-B7_3qkI0myvHU/view?usp=sharing",
+  "summary": "Full Stack Developer at Codetrex Infotech Private Limited, previously working in frontend development at the same company. Currently working with ASP.NET Core MVC, with an existing portfolio of MERN stack and React projects.",
+  "currentTechnologies": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Bootstrap",
+    "Tailwind CSS",
+    "C#",
+    "ASP.NET Core",
+    "ASP.NET Core MVC",
+    "Web API",
+    "MS SQL Server",
+    "PostgreSQL",
+    "pgAdmin",
+    "Firebase",
+    "Redis",
+    "Entity Framework Core",
+    "Dapper",
+    "Git",
+    "GitHub"
+  ],
+  "experience": [
+    {
+      "company": "Codetrex Infotech Private Limited",
+      "previousRole": "Frontend Developer",
+      "startDate": "2025-11-12",
+      "roleTransitionDate": null,
+      "endDate": null,
+      "isCurrent": true,
+      "responsibilities": [
+        "Building Om Sanskaram from scratch across frontend and backend.",
+        "Implementing separate daily subscription and store purchase journeys.",
+        "Developing APIs, administration, and banner management features.",
+        "Integrating payment gateway and wallet add-money functionality.",
+        "Developing separate flows for five puja offerings; work in progress.",
+        "Redesigning the Codetrex company website."
+      ],
+      "notes": "Joined 12 November 2025. Worked in frontend for more than six months, then gradually transitioned into full-stack work; currently fully working across the stack. Responsibilities are user-reported. Exact transition date, official title, project-specific stacks, and measurable outcomes are unspecified.",
+      "id": "codetrex",
+      "role": "Full Stack Developer"
+    },
+    {
+      "company": "Softpro India Computer Technologies Pvt Ltd",
+      "role": "MERN Stack Developer (Intern)",
+      "startDate": "2025-02",
+      "endDate": "2025-05",
+      "isCurrent": false,
+      "id": "softpro-internship",
+      "previousRole": null,
+      "roleTransitionDate": null,
+      "responsibilities": [],
+      "notes": "Extracted from previous portfolio; current factual review pending."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Babu Banarasi Das University, Lucknow",
+      "qualification": "Master of Computer Applications (MCA)",
+      "period": "2023-2025",
+      "status": "Completed",
+      "id": "mca"
+    },
+    {
+      "institution": "University of Lucknow",
+      "college": "Integral & Innovative Sustainable Education College, Kalyanpur, Lucknow",
+      "qualification": "Bachelor of Computer Applications (BCA)",
+      "period": "2020-2023",
+      "status": "Completed",
+      "id": "bca"
+    },
+    {
+      "institution": "Shri Vishwanath Inter College, Gyanpur, Bhadohi, Uttar Pradesh",
+      "qualification": "Intermediate (UP Board)",
+      "period": "2016-2017",
+      "status": "Completed",
+      "id": "intermediate"
+    },
+    {
+      "institution": "Maharaj Kumar Anant Narayan Singh Vidyalaya, Gyanpur, Bhadohi, Uttar Pradesh",
+      "qualification": "High School (UP Board)",
+      "period": "2014-2015",
+      "status": "Completed",
+      "id": "high-school"
+    }
+  ],
+  "id": "pawan-maurya",
+  "visibility": {
+    "resume": true,
+    "phone": false,
+    "instagram": true
+  }
+}

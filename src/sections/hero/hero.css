@@ -1,0 +1,122 @@
+.hero-section {
+  padding-block: clamp(2rem, 4vw, 3.5rem);
+  background: radial-gradient(ellipse at 85% 20%, #2563eb0e, transparent 60%);
+}
+
+.hero-heading {
+  max-width: 100%;
+  font-size: clamp(3.5rem, 7.2vw, 7rem);
+  line-height: 0.94;
+  letter-spacing: -0.065em;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+
+.hero-visual {
+  position: relative;
+  isolation: isolate;
+  min-width: 0;
+  height: 31rem;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.hero-name-outline {
+  color: var(--color-accent-text);
+}
+@supports (-webkit-text-stroke: 1px white) {
+  .hero-name-outline {
+    color: transparent;
+    -webkit-text-stroke: 1px var(--color-accent-text);
+  }
+  .hero-name-outline > span {
+    -webkit-text-stroke: 0;
+  }
+}
+
+@media (forced-colors: active) {
+  .hero-name-outline {
+    color: CanvasText;
+    -webkit-text-stroke: 0;
+  }
+}
+.hero-project-word {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #72a7ff0c;
+  font-size: clamp(5rem, 10vw, 9rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.07em;
+}
+.hero-project-primary,
+.hero-project-secondary {
+  position: absolute;
+  overflow: hidden;
+  border: 1px solid #5277b76b;
+  border-radius: 1rem;
+  background: var(--color-surface);
+  box-shadow: 0 24px 60px #0005;
+}
+.hero-project-primary {
+  top: 4.5rem;
+  left: 0.75rem;
+  width: 90%;
+  transform: rotate(-5deg);
+}
+.hero-project-secondary {
+  right: 0.75rem;
+  bottom: 3.25rem;
+  width: 61%;
+  transform: rotate(5deg);
+}
+.hero-project-primary img,
+.hero-project-secondary img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.hero-project-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  color: var(--color-secondary);
+  font-size: 0.6rem;
+  letter-spacing: 0.06em;
+}
+.hero-project-tag {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  color: var(--color-secondary);
+  font-size: 0.75rem;
+}
+@media (max-width: 63.999rem) {
+  .hero-visual {
+    height: clamp(22rem, 70vw, 29rem);
+    max-width: 36rem;
+    width: 100%;
+    margin-inline: auto;
+  }
+  .hero-project-primary {
+    top: 1.5rem;
+    width: 85%;
+  }
+  .hero-project-secondary {
+    width: 55%;
+    bottom: 2.25rem;
+  }
+}
+@media (max-height: 32rem) and (max-width: 63.999rem) {
+  .hero-visual {
+    display: none;
+  }
+}

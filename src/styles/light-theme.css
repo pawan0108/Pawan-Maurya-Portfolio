@@ -1,0 +1,99 @@
+/* Light has its own surface hierarchy; all treatments stay scoped to the theme. */
+:root[data-theme='light'] {
+  --light-panel-shadow: 0 2px 4px #18223403, 0 16px 40px -24px #18223430;
+}
+
+:root[data-theme='light'] header {
+  background: #fcfbf8f2;
+  backdrop-filter: blur(16px);
+}
+
+:root[data-theme='light'] .hero-section {
+  background:
+    radial-gradient(ellipse at 82% 28%, #dce5fa88, transparent 48%),
+    linear-gradient(120deg, #fcfbf8, #f3f4f6);
+}
+
+:root[data-theme='light'] .hero-name-outline {
+  color: var(--color-accent-text);
+  -webkit-text-stroke: 0;
+}
+
+:root[data-theme='light'] .hero-project-word {
+  color: #234ac60b;
+}
+
+:root[data-theme='light'] :is(.hero-project-primary, .hero-project-secondary) {
+  border-color: #d0d7e5;
+  box-shadow:
+    0 4px 8px #18223406,
+    0 22px 44px -22px #18223442;
+}
+
+:root[data-theme='light'] :is(.hero-project-bar, .project-preview > div:first-child) {
+  background: #f3f5f9;
+  color: #465164;
+}
+
+:root[data-theme='light'] :is(#work, #about) {
+  background: #fcfbf8;
+}
+
+:root[data-theme='light']
+  :where([data-professional-project], [data-personal-project], #contact-form) {
+  background: #fff;
+  border-color: #dce0e6;
+  box-shadow: var(--light-panel-shadow);
+}
+
+:root[data-theme='light'] [data-professional-project='om-sanskaram'] {
+  background: linear-gradient(125deg, #fff 45%, #edf2fc);
+  border-top: 3px solid var(--color-accent);
+}
+
+:root[data-theme='light'] .project-preview {
+  box-shadow: 0 6px 20px -12px #18223438;
+}
+
+:root[data-theme='light'] .project-preview figcaption {
+  background: #fafbfd;
+}
+
+:root[data-theme='light'] #expertise article {
+  border-top: 2px solid #c9d4eb;
+}
+
+:root[data-theme='light'] .experience-card {
+  box-shadow: var(--light-panel-shadow);
+}
+
+:root[data-theme='light'] #contact {
+  background: radial-gradient(ellipse at 8% 85%, #e6eafa90, transparent 55%), #f3f3f0;
+}
+
+:root[data-theme='light'] #contact-form :is(input, textarea) {
+  background: #f8f9fc;
+}
+
+:root[data-theme='light'] #contact-form :is(input, textarea):focus {
+  background: #fff;
+}
+
+:root[data-theme='light'] .interactive-action.bg-accent {
+  box-shadow: 0 4px 10px #234ed81a;
+}
+
+@media (hover: hover) {
+  :root[data-theme='light'] [data-personal-project]:hover {
+    border-color: #8da4dc;
+    box-shadow:
+      0 4px 8px #18223404,
+      0 18px 40px -20px #234ac638;
+  }
+}
+
+@media (forced-colors: active) {
+  :root[data-theme='light'] .hero-name-outline {
+    color: CanvasText;
+  }
+}
