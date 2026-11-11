@@ -1,0 +1,55 @@
+@theme {
+  --font-sans: 'Manrope Variable', 'Segoe UI', Arial, sans-serif;
+  --color-canvas: #101216;
+  --color-surface: #161a21;
+  --color-surface-raised: #1c222c;
+  --color-ink: #f3f5f7;
+  --color-secondary: #aeb7c6;
+  --color-muted: #919cac;
+  --color-accent: #2563eb;
+  --color-accent-hover: #1d4ed8;
+  --color-accent-text: #72a7ff;
+  --color-line: #303846;
+  --color-focus: #72a7ff;
+  --radius-control: 0.625rem;
+  --radius-panel: 1.25rem;
+  --text-display: clamp(2.5rem, 5.5vw + 1rem, 5.75rem);
+  --text-display--line-height: 1.04;
+  --text-display--letter-spacing: -0.045em;
+  --text-heading: clamp(1.875rem, 3vw, 3rem);
+  --text-heading--line-height: 1.15;
+  --text-heading--letter-spacing: -0.03em;
+  --text-lead: clamp(1.0625rem, 0.5vw + 1rem, 1.25rem);
+  --text-lead--line-height: 1.65;
+}
+
+:root {
+  --header-height: 4rem;
+  --section-space: clamp(3.25rem, 5vw, 5rem);
+  --ease-entry: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --color-canvas: #f6f5f1;
+  --color-surface: #ffffff;
+  --color-surface-raised: #eeeff3;
+  --color-ink: #182234;
+  --color-secondary: #465164;
+  --color-muted: #606a78;
+  --color-accent: #234ed8;
+  --color-accent-hover: #193db5;
+  --color-accent-text: #234ac6;
+  --color-line: #d8dce2;
+  --color-focus: #1d4ed8;
+}
+
+:root[data-theme='light'] .text-rose-300 {
+  color: #be123c;
+}
+
+@media (min-width: 64rem) {
+  :root {
+    --header-height: 4.5rem;
+  }
+}

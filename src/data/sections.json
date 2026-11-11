@@ -1,0 +1,18 @@
+{
+  "experience": {
+    "description": "A progression from frontend interfaces to full-stack product development.",
+    "progression": "More than six months in frontend, followed by a gradual transition into full-stack work."
+  },
+  "about": {
+    "headline": "A frontend foundation. A broader perspective.",
+    "paragraphs": [
+      "My background combines computer applications education with hands-on web development. I completed my MCA at Babu Banarasi Das University, following a BCA from the University of Lucknow.",
+      "At Codetrex, my work has grown from frontend development into application flows, APIs, administration, payments, and data access. Alongside company work, I have delivered an independent client website from development through deployment."
+    ]
+  },
+  "contact": {
+    "eyebrow": "Have a project in mind?",
+    "heading": "Let's talk.",
+    "description": "For project conversations, professional opportunities, or a simple introduction — get in touch."
+  }
+}

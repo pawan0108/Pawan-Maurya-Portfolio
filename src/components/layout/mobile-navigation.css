@@ -1,0 +1,84 @@
+header[data-menu-open='true'] {
+  backdrop-filter: none;
+}
+
+.mobile-navigation {
+  position: fixed;
+  inset: var(--header-height) 0 0;
+  height: calc(100dvh - var(--header-height));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: radial-gradient(ellipse at 100% 0%, #2563eb14, transparent 60%), var(--color-canvas);
+}
+.mobile-navigation[hidden] {
+  display: none;
+}
+.mobile-navigation-inner {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  padding-top: clamp(1.5rem, 4vh, 3rem);
+  padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
+}
+.mobile-navigation-link {
+  display: flex;
+  min-height: 4rem;
+  align-items: center;
+  border-bottom: 1px solid var(--color-line);
+  padding-block: clamp(0.75rem, 2vh, 1.5rem);
+  color: var(--color-ink);
+  font-size: clamp(1.75rem, 5vw, 3rem);
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.035em;
+}
+.mobile-navigation-link:is(:hover, [aria-current]) {
+  color: var(--color-accent-text);
+}
+.mobile-navigation-link > svg {
+  color: var(--color-muted);
+}
+.mobile-navigation-link[aria-current] > svg {
+  color: var(--color-accent-text);
+}
+.mobile-navigation-footer {
+  margin-top: auto;
+  padding-top: 2.5rem;
+}
+
+body:has([data-page-motion-paused='true']) .mobile-navigation,
+body:has([data-page-motion-paused='true']) .mobile-navigation-link {
+  animation: none;
+}
+
+:root[data-theme='light'] .mobile-navigation {
+  background: radial-gradient(ellipse at 100% 0%, #dce5fa80, transparent 60%), #fcfbf8;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .mobile-navigation:not([hidden]) {
+    animation: navigation-in 220ms ease-out both;
+  }
+  .mobile-navigation:not([hidden]) .mobile-navigation-link {
+    animation: navigation-link-in 320ms var(--ease-entry) both;
+    animation-delay: calc(var(--nav-index) * 45ms);
+  }
+  @keyframes navigation-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes navigation-link-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

@@ -1,0 +1,141 @@
+[
+  {
+    "mode": "mobile",
+    "fetchedAt": "2026-11-11T10:48:33.551Z",
+    "lighthouseVersion": "13.6.0",
+    "formFactor": "mobile",
+    "throttlingMethod": "simulate",
+    "screenEmulation": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 755.1029000000001,
+        "display": "0.8 s"
+      },
+      "largest-contentful-paint": {
+        "value": 755.1029000000001,
+        "display": "0.8 s"
+      },
+      "total-blocking-time": {
+        "value": 10.5,
+        "display": "10 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.0009900155118505389,
+        "display": "0.001"
+      },
+      "speed-index": {
+        "value": 755.1029000000001,
+        "display": "0.8 s"
+      }
+    },
+    "findings": [
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "score": 0.99,
+        "display": "70 ms"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0.5,
+        "display": "Est savings of 37 KiB"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 33 KiB"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 150 ms"
+      }
+    ]
+  },
+  {
+    "mode": "desktop",
+    "fetchedAt": "2026-11-11T10:48:41.585Z",
+    "lighthouseVersion": "13.6.0",
+    "formFactor": "desktop",
+    "throttlingMethod": "simulate",
+    "screenEmulation": {
+      "mobile": false,
+      "width": 1350,
+      "height": 940,
+      "deviceScaleFactor": 1,
+      "disabled": false
+    },
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 206.76960000000003,
+        "display": "0.2 s"
+      },
+      "largest-contentful-paint": {
+        "value": 206.76960000000003,
+        "display": "0.2 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.001772555123242731,
+        "display": "0.002"
+      },
+      "speed-index": {
+        "value": 206.76960000000003,
+        "display": "0.2 s"
+      }
+    },
+    "findings": [
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "score": 0.5,
+        "display": "Est savings of 37 KiB"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5,
+        "display": "Est savings of 19 KiB"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0.5
+      }
+    ]
+  }
+]

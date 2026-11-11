@@ -1,0 +1,188 @@
+[
+  {
+    "id": "html",
+    "name": "HTML",
+    "group": "frontend",
+    "contexts": ["current", "legacy"]
+  },
+  {
+    "id": "css",
+    "name": "CSS",
+    "group": "frontend",
+    "contexts": ["current", "legacy"]
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "group": "frontend",
+    "contexts": ["current", "legacy"]
+  },
+  {
+    "id": "bootstrap",
+    "name": "Bootstrap",
+    "group": "frontend",
+    "contexts": ["current", "legacy"]
+  },
+  {
+    "id": "tailwind-css",
+    "name": "Tailwind CSS",
+    "group": "frontend",
+    "contexts": ["current"]
+  },
+  {
+    "id": "csharp",
+    "name": "C#",
+    "group": "backend",
+    "contexts": ["current"]
+  },
+  {
+    "id": "aspnet-core",
+    "name": "ASP.NET Core",
+    "group": "backend",
+    "contexts": ["current"]
+  },
+  {
+    "id": "aspnet-core-mvc",
+    "name": "ASP.NET Core MVC",
+    "group": "backend",
+    "contexts": ["current"]
+  },
+  {
+    "id": "web-api",
+    "name": "Web API",
+    "group": "backend",
+    "contexts": ["current"]
+  },
+  {
+    "id": "sql-server",
+    "name": "MS SQL Server",
+    "group": "data",
+    "contexts": ["current"]
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "group": "data",
+    "contexts": ["current"]
+  },
+  {
+    "id": "pgadmin",
+    "name": "pgAdmin",
+    "group": "tools",
+    "contexts": ["current"]
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "group": "services",
+    "contexts": ["current"]
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "group": "services",
+    "contexts": ["current"]
+  },
+  {
+    "id": "entity-framework-core",
+    "name": "Entity Framework Core",
+    "group": "data",
+    "contexts": ["current"]
+  },
+  {
+    "id": "dapper",
+    "name": "Dapper",
+    "group": "data",
+    "contexts": ["current"]
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "group": "tools",
+    "contexts": ["current"]
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "group": "tools",
+    "contexts": ["current", "legacy"]
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "group": "frontend",
+    "contexts": ["legacy"]
+  },
+  {
+    "id": "express",
+    "name": "Express",
+    "group": "backend",
+    "contexts": ["legacy"]
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "group": "backend",
+    "contexts": ["legacy"]
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "group": "languages",
+    "contexts": ["legacy"]
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "group": "languages",
+    "contexts": ["legacy"]
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "group": "data",
+    "contexts": ["legacy"]
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "group": "data",
+    "contexts": ["legacy"]
+  },
+  {
+    "id": "mongodb-atlas",
+    "name": "MongoDB Atlas",
+    "group": "services",
+    "contexts": ["legacy"]
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "group": "services",
+    "contexts": ["legacy"]
+  },
+  {
+    "id": "cloudinary",
+    "name": "Cloudinary",
+    "group": "services",
+    "contexts": ["legacy"]
+  },
+  {
+    "id": "render",
+    "name": "Render",
+    "group": "services",
+    "contexts": ["legacy"]
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "group": "tools",
+    "contexts": ["legacy"]
+  },
+  {
+    "id": "vs-code",
+    "name": "VS Code",
+    "group": "tools",
+    "contexts": ["legacy"]
+  }
+]
